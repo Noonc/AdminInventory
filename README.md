@@ -51,14 +51,14 @@ vanish: false
 As noticed in the config above, there is an option to enable vanish. This will turn on/off vanish on the adminon/adminoff commands.
 
 ## Permissions: (respectively)
-admininventory.adminon
-admininventory.adminoff
-admininventory.help
-admininventory.restart
-admininventory.vanish
-admininventory.reload
-admininventory.vanishset
-admininventory.clear
+- admininventory.adminon
+- admininventory.adminoff
+- admininventory.help
+- admininventory.restart
+- admininventory.vanish
+- admininventory.reload
+- admininventory.vanishset
+- admininventory.clear
 
 ### Warning:
 This does not carry over XP.
