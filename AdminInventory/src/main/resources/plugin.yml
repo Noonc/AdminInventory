@@ -1,0 +1,46 @@
+name: AdminInventory
+main: io.github.noonc.admininventory.admininventory
+version: 1.2.1-SNAPSHOT
+author: noonc
+load: STARTUP
+commands:    
+    admininventory:
+        description: Lists all commands and usage
+        usage: /<command>
+        permission: admininventory.help
+        permission-message: 'You do not have <permission>'
+    adminon:
+        description: Enables Admin Mode
+        usage: /<command>
+        permission: admininventory.adminon
+        permission-message: 'You do not have <permission>'
+    adminoff:
+        description: Disables Admin Mode
+        usage: /<command>
+        permission: admininventory.adminoff
+        permission-message: 'You do not have <permission>'
+    restartn:
+        description: Stops the Server in 10 Seconds
+        usage: /<command>
+        permission: admininventory.restart
+        permission-message: 'You do not have <permission>'
+    vanishn:
+        description: Turns the player invisible.
+        usage: /<command>
+        permission: admininventory.vanish
+        permission-message: 'You do not have <permission>'
+    adminreload:
+        description: Reloads the plugin.
+        usage: /<command>
+        permission: admininventory.reload
+        permission-message: 'You do not have <permission>'
+    adminvanish:
+        description: Turns Vanish On or Off
+        usage: /<command> on/off
+        permission: admininventory.vanishset
+        permission-message: 'You do not have <permission>'
+    adminclear:
+        description: Clear current saved inventory
+        usage: /<command>
+        permission: admininventory.clear
+        permission-message: 'You do not have <permission>'

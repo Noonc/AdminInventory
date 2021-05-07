@@ -1,0 +1,10 @@
+
+Essentials Eco Save
+XP
+
+Add Commands in seperate classes
+
+Add Commands to connect to SQL/Set Config
+
+I think if i do another INSERT VALUE, with XP and Eco, I can then select which one numerically to get value from afterwards
+

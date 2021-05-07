@@ -1,0 +1,23 @@
+#Edit all fields as required!
+#You may notice that /restartn only stops the server. This command only works if your BAT file you start/run the server with is a goto Start Batch file. 
+#Essenially it automatically starts the server up again once it closes. 
+#I implemented this to have a timer of 10 seconds and to message all players online, as well as a Server Closed message.
+
+
+# The Host/IP 
+host: '127.0.0.1'
+
+# The port
+port: '3306'
+
+#The name of the database used - have to set this up manually
+database: 'admininventory'
+
+#The username
+user: 'root'
+
+#The password 
+pass: 'pass'
+
+#Selects whether vanish mode is on. If it is, it will put the player into Vanish (using SuperVanish) when enabling Admin Mode.
+vanish: false
