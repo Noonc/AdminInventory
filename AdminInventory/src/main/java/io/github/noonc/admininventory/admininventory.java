@@ -40,7 +40,6 @@ public class admininventory extends JavaPlugin
 	@Override
 	public void onEnable() 
 	{
-		getLogger().info("onEnable has been invoked");
 		this.getConfig();
 		//FileConfiguration config = this.getConfig();
 		//config.addDefault("host", "127.0.0.1");
@@ -56,8 +55,7 @@ public class admininventory extends JavaPlugin
 	}
 	@Override
 	public void onDisable() 
-	{
-		getLogger().info("onDisable has been invoked");
+	{		
 		try {
 			if (connection!=null && !connection.isClosed()) {
 				connection.close();
